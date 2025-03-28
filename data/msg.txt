@@ -1,0 +1,25 @@
+1 Introduction
+Humans interact with the world through many channels such as vision and language, as each
+individual channel has a unique advantage in representing and communicating certain concepts, and
+thus facilitates a better understanding of the world. One of the core aspirations in artificial intelligence
+is to develop a general-purpose assistant that can effectively follow multi-modal vision-and-language
+instructions, aligned with human intent to complete various real-world tasks in the wild [4, 27, 26].
+To this end, the community has witnessed an emergent interest in developing language-augmented
+foundation vision models [27, 16], with strong capabilities in open-world visual understanding
+such as classification [40, 21, 57, 54, 39], detection [29, 62, 33], segmentation [25, 63, 58] and
+captioning [50, 28], as well as visual generation and editing [42, 43, 56, 15, 44, 30]. We refer readers
+to the Computer Vision in the Wild reading list for a more up-to-date literature compilation [12]. In
+this line of work, each task is solved independently by one single large vision model, with the task
+instruction implicitly considered in the model design. Further, language is only utilized to describe
+the image content. While this allows language to play an important role in mapping visual signals to
+language semantics—a common channel for human communication, it leads to models that usually
+have a fixed interface with limited interactivity and adaptability to the user’s instructions.
+Large language models (LLM), on the other hand, have shown that language can play a wider
+role: a universal interface for a general-purpose assistant, where various task instructions can be
+explicitly represented in language and guide the end-to-end trained neural assistant to switch to the
+task of interest to solve it. For example, the recent success of ChatGPT [35] and GPT-4 [36] have
+demonstrated the power of aligned LLMs in following human instructions, and have stimulated
+tremendous interest in developing open-source LLMs. Among them, LLaMA [49] is an opensource LLM that matches the performance of GPT-3. Alpaca [48], Vicuna [9], GPT-4-LLM [38]
+37th Conference on Neural Information Processing Systems (NeurIPS 2023).
+arXiv:2304.08485v2 [cs.CV] 11 Dec 2023
+utilize various machine-generated h
