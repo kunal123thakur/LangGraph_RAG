@@ -4,7 +4,7 @@
 
 Here’s an enhanced version of your `README.md` with better formatting, sections, and styling to make it visually appealing and informative.
 
-```markdown
+
 # 🔍 Corrective RAG LangGraph Application
 
 A simple Streamlit application demonstrating **Retrieval-Augmented Generation (RAG)** using the **LangGraph** framework. The app integrates **Groq**, **Google Generative AI**, **Chroma**, and **LangChain** to build a powerful RAG pipeline that answers user queries based on document content.
@@ -57,7 +57,7 @@ GROK_API_KEY=your_grok_api_key
 GOOGLE_API_KEY=your_google_api_key
 ```
 
----
+
 
 ## 📂 Project Structure
 
