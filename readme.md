@@ -1,4 +1,5 @@
-![alt text](<Screenshot 2025-03-27 114723.png>)
+# Simple RAG Implementation using LangGraph
+![Screenshot 2025-03-27 114723](https://github.com/user-attachments/assets/6bcb52f0-231a-401d-bd4f-f580475cfa1f)
 
 
 Here’s an enhanced version of your `README.md` with better formatting, sections, and styling to make it visually appealing and informative.
